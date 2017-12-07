@@ -11,6 +11,7 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/navbar.js"></script>
+		<script src="js/guide.js"></script>
 	</head>
 	<body>
 		<div id="menu">
@@ -35,7 +36,7 @@
 					<div id="navbar" class="collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a id="navbarJeu" href="?id=01">Jeu</a></li>
-							<li><a id="navbarGuide" href="?id=02">Guide</a></li>
+							<li><a id="navbarGuide" href="#guide" onclick="affichageGuide()">Guide</a></li>
 							<li><a id="navbarCalendrier" href="?id=03">Calendrier</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -56,12 +57,14 @@
 					}
 				echo $page;
 				$pageAccueil = 
-				$pageExplication = 
+				$pageGuide = 
 				$pageJeux = '<div id="question">Affichage des questions  </div> <div id="jeux"> affichage du jeux</div>';
 				$pageAbout = '<div> à propos du projet</div>';
 				
 				if($page == 1)
 					echo $pageJeux;
+				if($page == 2)
+					echo $pageGuide;
 			
 			?>
 		</div>
