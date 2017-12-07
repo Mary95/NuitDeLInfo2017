@@ -1,0 +1,71 @@
+html{
+	height: 100%;
+}
+body {
+	padding-top: 20px;
+	text-align: center;
+	height: 100%;
+}
+
+
+
+.center{
+	text-align: center;
+}
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+.closedCross{
+	margin-left: 1px;
+}
+
+/*resultas dans profil.html*/
+@media screen and (max-width: 767px) {
+  .alt-table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /*border: 1px solid #dddddd;*/
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+#corpsDePage{
+	background-color: red;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#navbarJeu:hover{
+	background-color: LightGrey ;
+	color: black;
+}
+
+#navbarCalendrier:hover{
+	background-color: LightGrey ;
+	color: black;
+}
+
+#navbarGuide:hover{
+	background-color: LightGrey ;
+	color: black;
+}
+
+#navbarAccueil:hover{
+	background-color: LightBlue  ;
+	color: black;
+}
+
+/* utilisé dans une "version beta" de l'index
+.aside{
+	background-image: url("https://image.shutterstock.com/z/stock-photo-a-group-of-graduates-toss-their-mortar-boards-into-the-air-in-a-hallway-42151627.jpg");
+	   
+	position: relative;
+    top: 31px;
+	height: 100%;
+}
+*/
