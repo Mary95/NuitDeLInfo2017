@@ -59,6 +59,9 @@
 				$pageExplication = 
 				$pageJeux = '<div id="question">Affichage des questions  </div> <div id="jeux"> affichage du jeux</div>';
 				$pageAbout = '<div> à propos du projet</div>';
+				
+				if($page == 1)
+					echo $pageJeux;
 			
 			?>
 		</div>
