@@ -33,7 +33,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a id="navbarJeu" href="#jeu" onclick="affichageJeu()">Jeu</a></li>
 							<li><a id="navbarGuide" href="#guide" onclick="affichageGuide()">Guide</a></li>
-							<li><a id="navbarCalendrier" href="#calendrier" onclick="affichageCalendrier()">Calendrier</a></li>
+							<!--li><a id="navbarCalendrier" href="#calendrier" onclick="affichageCalendrier()">Calendrier</a></li-->
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>

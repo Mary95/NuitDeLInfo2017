@@ -1,7 +1,4 @@
 
-function test(){
-	console.log("test");
-}
 
 //fonction affichant la page guide.php dans <div id="corpsDePage"></div>
 function affichageGuide(){

@@ -2,9 +2,8 @@
 var game = new Game();
 
 function gameLaunch(){
-	
-game.init();
-game.start();
+	game.init();
+	game.start();
 }
 var imageRepository = new function() {
 	// on "crée" les images
