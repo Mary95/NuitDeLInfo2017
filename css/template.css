@@ -1,0 +1,42 @@
+html{
+	height: 100%;
+}
+body {
+	padding-top: 20px;
+	text-align: center;
+	height: 100%;
+}
+
+
+
+.center{
+	text-align: center;
+}
+
+
+
+#corpsDePage{
+    margin-top: 30px;
+    padding-top: 5px;
+}
+
+#navbarJeu:hover{
+	background-color: LightGrey ;
+	color: black;
+}
+
+#navbarCalendrier:hover{
+	background-color: LightGrey ;
+	color: black;
+}
+
+#navbarGuide:hover{
+	background-color: LightGrey ;
+	color: black;
+}
+
+#navbarAccueil:hover{
+	background-color: LightBlue  ;
+	color: black;
+}
+
