@@ -12,13 +12,7 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/rechargement.js"></script>
 	</head>
-	<body>
-		<div id="menu">
-			<a href="#?id=01" onclick= "refresh()"> revoir les explications </a>
-			<a href="#?id=02" onclick= "refresh()"> acceder au jeu </a>
-			<a href="#?id=03" onclick= "refresh()"> à propos du projet </a>
-		</div>
-		
+	<body onload="affichageAccueil()">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="row">
@@ -29,12 +23,12 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a id="navbarAccueil" class="navbar-brand" href="index.php">Accueil</a>
+						<a id="navbarAccueil" class="navbar-brand" href="#accueil" onclick="affichageAccueil()">Accueil</a>
 					</div>
 				
 					<div id="navbar" class="collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a id="navbarJeu" href="?id=01">Jeu</a></li>
+							<li><a id="navbarJeu" href="#jeu" onclick="affichageJeu()">Jeu</a></li>
 							<li><a id="navbarGuide" href="#guide" onclick="affichageGuide()">Guide</a></li>
 							<li><a id="navbarCalendrier" href="#calendrier" onclick="affichageCalendrier()">Calendrier</a></li>
 						</ul>
