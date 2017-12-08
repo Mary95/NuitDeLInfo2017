@@ -11,13 +11,9 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/rechargement.js"></script>
-		<script src="js/popup.js"></script>
-		<script src="js/konamicode.js"></script>
+
 	</head>
 	<body onload="affichageAccueil()">
-
- <!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -25,9 +21,12 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
+		<video width="320" height="240" controls autoplay>
+		 <source src="video/got.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+		</video>
 
+  </div>
 </div>
 
 
@@ -80,7 +79,8 @@
 			?>
 		</div>
 
-
+		<script src="js/popup.js"></script>
+		<script src="js/konamicode.js"></script>
 	</body>
 
 </html>
