@@ -41,28 +41,7 @@
 		</nav>
 		
 		<div id="corpsDePage">
-		
-			<?php
-				if(isset($_GET['id'])!=null)
-					{
-						$page = $_GET['id'];
-					}
-					else
-					{
-						$page = 0;
-					}
-				echo $page;
-				$pageAccueil = 
-				$pageGuide = 
-				$pageJeux = '<div id="question">Affichage des questions  </div> <div id="jeux"> affichage du jeux</div>';
-				$pageAbout = '<div> à propos du projet</div>';
-				
-				if($page == 1)
-					echo $pageJeux;
-				if($page == 2)
-					echo $pageGuide;
-			
-			?>
+			<!-- Les différents pages seront chargées puis affichées dans cette div -->
 		</div>
 		
 

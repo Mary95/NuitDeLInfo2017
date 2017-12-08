@@ -11,6 +11,8 @@ var imageRepository = new function() {
 	this.auto = new Image();
 	this.autoDroite = new Image();
 	this.autoGauche = new Image();
+	this.autoBas = new Image();
+	this.autoHaut = new Image();
 
 
 	// on lance init() quand toutes les images sont chargées
@@ -30,6 +32,8 @@ var imageRepository = new function() {
 	// source des images
 	this.autoDroite.src = "img/auto-color-droite.png";
 	this.autoGauche.src = "img/auto-color-gauche.png";
+	this.autoBas.src = "img/auto-color-bas.png";
+	this.autoHaut.src = "img/auto-color-haut.png";
 	
 }
 
@@ -79,12 +83,18 @@ function Auto() {
 	this.drawGauche = function() {
 		this.context.drawImage(imageRepository.autoGauche, this.x, this.y);
 	};
+	this.drawBas = function() {
+		this.context.drawImage(imageRepository.autoBas, this.x, this.y);
+	};
+	this.drawHaut = function() {
+		this.context.drawImage(imageRepository.autoHaut, this.x, this.y);
+	};
 	
 	this.move = function() {	
 		
 		if (KEY_STATUS.left || KEY_STATUS.right || KEY_STATUS.down || KEY_STATUS.up) {// si on appuie sur une fleche
 			
-			this.context.clearRect(this.x-25, this.y-25, this.width+50, this.height+50);// on efface le vaisseau pour le redessiner dans une autres direction
+			this.context.clearRect(this.x, this.y, this.width+100, this.height+100);// on efface le vaisseau pour le redessiner dans une autres direction
 			
 			
 			
@@ -104,7 +114,7 @@ function Auto() {
 				this.y -= this.speed
 				if (this.y <= 0) 
 					this.y = 0;
-				this.drawDroite();
+				this.drawHaut();
 				
 			} 
 			else if (KEY_STATUS.down) {
@@ -117,7 +127,7 @@ function Auto() {
 					this.x = 450;
 				}
 					
-				this.drawDroite();
+				this.drawBas();
 				
 			}
 		}
