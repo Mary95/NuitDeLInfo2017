@@ -11,6 +11,9 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/rechargement.js"></script>
+		<script src="js/jeu.js"></script>
+		
+		
 	</head>
 	<body onload="affichageAccueil()">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -23,7 +26,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a id="navbarAccueil" class="navbar-brand" href="#accueil" onclick="affichageAccueil()">Accueil</a>
+						<a id="navbarAccueil" class="navbar-brand" href="index.php" onclick="affichageAccueil()">Accueil</a>
 					</div>
 				
 					<div id="navbar" class="collapse navbar-collapse">
