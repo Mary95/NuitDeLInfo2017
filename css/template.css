@@ -5,6 +5,7 @@ body {
 	padding-top: 20px;
 	text-align: center;
 	height: 100%;
+	background-image: url("https://blog.humancoders.com/wp-content/themes/wptheme/images/developer.jpeg");
 }
 
 
@@ -14,6 +15,16 @@ body {
 }
 
 
+
+#textAccueil{
+    background-color: lightslategrey;
+
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+}
 
 #corpsDePage{
     margin-top: 30px;
@@ -41,6 +52,7 @@ body {
 }
 
 #jeu{
+	border: 10px solid black;
 	background:url(../img/map1-color-rezise.png);
 	background-size: contain;
 	z-index: 10;

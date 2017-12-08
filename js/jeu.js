@@ -16,6 +16,8 @@ function gameLaunch(){
  		game = new Game();
 		game.init();
 		game.start();
+		game.auto.drawDroite();
+
 	}, 1000);
 }
 var imageRepository = new function() {
@@ -79,14 +81,11 @@ function Drawable() {
 
 
 function Auto() {
-	this.spec = 1;//1=red || 2=green || 3=gold
-	this.alive = true;
 	this.speed = 4;
-	this.fireRate = 10;//vitesse de tir
-	var counter = 0;//
-	this.collidableWith = "enemyBullet";
-	this.type = "ship";
-	this.health = 5// vie du vaisseau
+	imageRepository.autoDroite.src = "img/auto-color-droite.png";
+	imageRepository.autoGauche.src = "img/auto-color-gauche.png";
+	imageRepository.autoBas.src = "img/auto-color-bas.png";
+	imageRepository.autoHaut.src = "img/auto-color-haut.png";
 
 
 	this.drawDroite = function() {
