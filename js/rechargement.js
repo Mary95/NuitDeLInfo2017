@@ -1,6 +1,5 @@
 
 
-
 //fonction affichant la page guide.php dans <div id="corpsDePage"></div>
 function affichageGuide(){
 	console.log("affichage du Guide");
