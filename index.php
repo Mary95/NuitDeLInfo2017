@@ -11,7 +11,7 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/rechargement.js"></script>
-<<<<<<< HEAD
+
 
 	</head>
 	<body onload="affichageAccueil()">
@@ -29,30 +29,6 @@
 
   </div>
 </div>
-=======
-		<script src="js/jeu.js"></script>
-		
-		<script src="js/popup.js"></script>
-		<script src="js/konamicode.js"></script>
-	</head>
-	<body onload="affichageAccueil()">
-
-		 <!-- Trigger/Open The Modal -->
-		<button id="myBtn">Open Modal</button>
-
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
-
-		  <!-- Modal content -->
-		  <div class="modal-content">
-			<span class="close">&times;</span>
-			<p>Some text in the Modal..</p>
-		  </div>
-
-		</div>
->>>>>>> refs/remotes/origin/master
-
-
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="row">
