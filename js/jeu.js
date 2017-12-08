@@ -1,5 +1,5 @@
 //crée une instance de Game
-var game = new Game();
+var game = null;
 var gameOn = false;
 
 function resetGame(){
@@ -13,6 +13,7 @@ function gameLaunch(){
 	setTimeout(function(){
 		$("#btnLancerJeu").hide();
 		gameOn = true;
+ 		game = new Game();
 		game.init();
 		game.start();
 	}, 1000);
